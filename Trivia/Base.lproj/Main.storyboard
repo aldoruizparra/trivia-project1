@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bIx-Nc-rgb">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Trivia View Controller-->
+        <scene sceneID="oOT-WO-5tb">
+            <objects>
+                <viewController id="bIx-Nc-rgb" customClass="TriviaViewController" customModule="Trivia" customModuleProvider="target" colorLabel="IBBuiltInLabel-Green" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LUY-7S-nxq" colorLabel="IBBuiltInLabel-Green">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BrX-Ib-2BB">
+                                <rect key="frame" x="162.33333333333334" y="138" width="68.666666666666657" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="U.S. History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htB-Py-xfr">
+                                <rect key="frame" x="151.33333333333334" y="178.33333333333334" width="90.333333333333343" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aldo YOU rOCK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAM-P1-Z3p">
+                                <rect key="frame" x="136.66666666666666" y="240.66666666666666" width="119.66666666666666" height="20.333333333333343"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="1" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Eao-sV-a0c">
+                                <rect key="frame" x="46.666666666666657" y="346" width="300" height="257.33333333333326"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aub-PZ-wjF">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <connections>
+                                            <action selector="answerTapped:" destination="bIx-Nc-rgb" eventType="touchUpInside" id="XEo-cc-zcJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sbs-lH-MBC">
+                                        <rect key="frame" x="0.0" y="74.333333333333314" width="300" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <connections>
+                                            <action selector="answerTapped:" destination="bIx-Nc-rgb" eventType="touchUpInside" id="mAX-94-pRv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFn-GP-cFK">
+                                        <rect key="frame" x="0.0" y="148.66666666666669" width="300" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <connections>
+                                            <action selector="answerTapped:" destination="bIx-Nc-rgb" eventType="touchUpInside" id="eIj-45-Pg6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3u-aW-Nve">
+                                        <rect key="frame" x="0.0" y="223" width="300" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <connections>
+                                            <action selector="answerTapped:" destination="bIx-Nc-rgb" eventType="touchUpInside" id="usb-TE-rHc"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="tintColor" systemColor="tintColor"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="8dZ-ep-KBa"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="8j1-ic-ArU"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="Kzj-fR-jYB"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="kGp-ee-vek"/>
+                                    <constraint firstAttribute="width" constant="300" id="nep-v9-ID9"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zZA-L8-qOy"/>
+                        <color key="backgroundColor" red="0.51372549020000002" green="0.70588235290000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="htB-Py-xfr" firstAttribute="top" secondItem="BrX-Ib-2BB" secondAttribute="bottom" constant="20" id="0nc-8g-l6q"/>
+                            <constraint firstItem="BAM-P1-Z3p" firstAttribute="top" secondItem="htB-Py-xfr" secondAttribute="bottom" constant="42" id="7FI-hI-KVv"/>
+                            <constraint firstItem="BAM-P1-Z3p" firstAttribute="centerX" secondItem="LUY-7S-nxq" secondAttribute="centerX" id="EuY-ls-WMy"/>
+                            <constraint firstItem="BrX-Ib-2BB" firstAttribute="top" secondItem="zZA-L8-qOy" secondAttribute="top" constant="20" id="EwI-mM-qW8"/>
+                            <constraint firstItem="htB-Py-xfr" firstAttribute="centerX" secondItem="LUY-7S-nxq" secondAttribute="centerX" id="I7u-zH-vcM"/>
+                            <constraint firstItem="Eao-sV-a0c" firstAttribute="top" secondItem="BAM-P1-Z3p" secondAttribute="bottom" constant="85" id="KhK-cj-7Ox"/>
+                            <constraint firstItem="Eao-sV-a0c" firstAttribute="top" secondItem="BAM-P1-Z3p" secondAttribute="bottom" constant="85" id="Z4j-1G-3Bz"/>
+                            <constraint firstItem="BrX-Ib-2BB" firstAttribute="centerX" secondItem="LUY-7S-nxq" secondAttribute="centerX" id="cqD-21-QyU"/>
+                            <constraint firstItem="htB-Py-xfr" firstAttribute="centerX" secondItem="LUY-7S-nxq" secondAttribute="centerX" id="h3P-yM-k68"/>
+                            <constraint firstItem="Eao-sV-a0c" firstAttribute="centerX" secondItem="LUY-7S-nxq" secondAttribute="centerX" id="v6v-hb-NVm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerButton1" destination="Aub-PZ-wjF" id="Ltq-sA-foT"/>
+                        <outlet property="answerButton2" destination="Sbs-lH-MBC" id="ptr-lf-vow"/>
+                        <outlet property="answerButton3" destination="MFn-GP-cFK" id="4Cn-2w-4pt"/>
+                        <outlet property="answerButton4" destination="W3u-aW-Nve" id="lyi-6h-AuG"/>
+                        <outlet property="progressLabel" destination="BrX-Ib-2BB" id="v3l-eA-w1U"/>
+                        <outlet property="questionLabel" destination="BAM-P1-Z3p" id="yWp-Yy-vyB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="adG-EQ-LDI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-25.190839694656489" y="-28.169014084507044"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
