@@ -2,7 +2,7 @@ Submitted by: **Aldo Ruiz Parra**
 
 **Trivia Project 1** is an app that contains short trivia game for an IOS application.
 
-Time spent: **6-8** hours spent in total
+Time spent: **6-7** hours spent in total
 
 ## Required Features
 
@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Loom link:
+Loom link: https://www.loom.com/share/21bc62fa11ee480b94081f84f1c0b68f?sid=3e24bf66-caf9-4d3e-bdd0-4b19076e0ddb
 
 ## Notes
 
